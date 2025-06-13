@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CRMProjesi.Properties
+namespace WindowsFormsApp4.Properties
 {
 
 

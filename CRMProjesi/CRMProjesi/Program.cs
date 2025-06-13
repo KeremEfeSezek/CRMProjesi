@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CRMProjesi
+namespace WindowsFormsApp4
 {
     internal static class Program
     {
@@ -14,9 +14,12 @@ namespace CRMProjesi
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
     }
+
 }

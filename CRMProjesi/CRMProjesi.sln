@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMProjesi", "CRMProjesi\CRMProjesi.csproj", "{48CDDAF0-3657-416C-903D-E0A7D149E2E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMProjesi", "CRMProjesi\CRMProjesi.csproj", "{2A9DFEF8-1FFB-421F-A9E8-54DE11340A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{48CDDAF0-3657-416C-903D-E0A7D149E2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48CDDAF0-3657-416C-903D-E0A7D149E2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48CDDAF0-3657-416C-903D-E0A7D149E2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48CDDAF0-3657-416C-903D-E0A7D149E2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9DFEF8-1FFB-421F-A9E8-54DE11340A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9DFEF8-1FFB-421F-A9E8-54DE11340A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9DFEF8-1FFB-421F-A9E8-54DE11340A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9DFEF8-1FFB-421F-A9E8-54DE11340A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

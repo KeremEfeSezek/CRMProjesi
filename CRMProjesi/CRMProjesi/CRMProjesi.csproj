@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{48CDDAF0-3657-416C-903D-E0A7D149E2E1}</ProjectGuid>
+    <ProjectGuid>{2A9DFEF8-1FFB-421F-A9E8-54DE11340A01}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CRMProjesi</RootNamespace>
-    <AssemblyName>CRMProjesi</AssemblyName>
+    <RootNamespace>WindowsFormsApp4</RootNamespace>
+    <AssemblyName>WindowsFormsApp4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,16 +46,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\DataStore.cs" />
+    <Compile Include="Models\GeriBildirim.cs" />
+    <Compile Include="Models\Musteri.cs" />
+    <Compile Include="Models\Talep.cs" />
+    <Compile Include="Models\Temsilci.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeriBildirimler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeriBildirimler.Designer.cs">
+      <DependentUpon>frmGeriBildirimler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMusteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMusteriler.Designer.cs">
+      <DependentUpon>frmMusteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTalepler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTalepler.Designer.cs">
+      <DependentUpon>frmTalepler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemsilciler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemsilciler.Designer.cs">
+      <DependentUpon>frmTemsilciler.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeriBildirimler.resx">
+      <DependentUpon>frmGeriBildirimler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMusteriler.resx">
+      <DependentUpon>frmMusteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTalepler.resx">
+      <DependentUpon>frmTalepler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemsilciler.resx">
+      <DependentUpon>frmTemsilciler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,5 +129,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

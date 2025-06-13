@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CRMProjesi")]
+[assembly: AssemblyTitle("WindowsFormsApp4")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CRMProjesi")]
+[assembly: AssemblyProduct("WindowsFormsApp4")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("48cddaf0-3657-416c-903d-e0a7d149e2e1")]
+[assembly: Guid("2a9dfef8-1ffb-421f-a9e8-54de11340a01")]
 
 // Version information for an assembly consists of the following four values:
 //
